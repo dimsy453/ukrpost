@@ -1,0 +1,669 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
+
+
+body{
+  margin: 0;
+}
+
+.Header{
+  width: 100%;
+  height: 15vh;
+  position: sticky;
+  margin: 0;
+  top: 0;
+  background-color:#F8F8F8;
+  z-index: 5;
+}
+.header{
+  width: 85%;
+  margin: auto;
+}
+.headerA{
+  width:100%;
+}
+.headerMenu{
+  width:60%;
+  display: flex;
+  justify-content: space-between;
+}
+.headerMenu a{
+  width: 15%;
+  font-family: "Rubik";
+  color: #888888;
+  text-decoration: none;
+  font-size: 2.2vb;
+  background-color: #F8F8F8;
+}
+/*-----B----*/
+.B{
+  width: 100vw;
+  height: 70vh;
+  background: #FEC524;
+}
+.b{
+  width: 85%;
+  height: 100%;
+  margin: auto;
+}
+.ba{
+  width: 30%;
+  height: 100%;
+  justify-content: center;
+  align-content: center;
+}
+.b h1{
+  color: white;
+  font-size: 8vb;
+  padding-top: 10%;
+}
+.b p{
+  font-family: "Rubik";
+  color: #0E2F4B;
+  font-size: 2.6vb;
+}
+.bb{
+  width: 100%;
+  height: 30%;
+  margin: auto;
+  position: relative;
+  bottom:28%;
+}
+.bba{
+  width: 100%;
+  height: 50%;
+}
+.bba input{
+  width:46%;
+  height: 80%;
+  border-radius: 5px;
+}
+.bbb{
+  width: 100%;
+  height: 50%;
+  display:flow-root;
+}
+.bbbButton{
+  width:23%;
+  height: 100%;
+  color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+.calculater{
+  position: relative;
+  left: 3%;
+  bottom: 40%
+}
+.bokc{
+  position: relative;
+  left: 24%;
+  bottom: 39%
+}
+.target{
+  position: relative;
+  left: 44%;
+  bottom: 38%
+}
+.book{
+  position: relative;
+  left: 64%;
+  bottom: 39%
+}
+/*--------ServicesPost-----*/
+.ServicesPost{
+  width: 100vw;
+  height: 85vh;
+  background: #F8F8F8;
+}
+.servicesPost{
+  width: 85%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+}
+.sectionA{
+  width: 40%;
+  height: 100%;
+  margin-right: 5%;
+  margin-top: 5%;
+  text-align: justify;
+}
+.sectionB{
+  width: 60vw;
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: column;
+  margin-top: 5%;
+}
+.sectionA h1 {
+  color: #0E2F4B;
+  font-size: 8vb;
+  font-family: "Rubik";
+}
+.sectionA p {
+  color: #0E2F4B;
+  font-size: 2.7vb;
+  padding-top: 3%;
+  font-family: "Rubik";
+}
+.sectionBA{
+  color: #0E2F4B;
+  font-size: 2.5vb;
+  font-family: "Rubik";
+}
+.sectionBA a{
+  color: #0E2F4B;
+  text-decoration: none;
+  font-family: "Rubik";
+}
+/*---------Business-------*/
+.Business{
+  width: 100%;
+  height: 90vh;
+  background-color: #042C4B;
+}
+.business{
+  width: 85%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+}
+.businessText{
+  margin-top: 3%;
+}
+.businessText h1{
+  color: white;
+  font-size: 8vb;
+  font-family: "Rubik";
+  display: inline-flex;
+}
+.businessText p{
+  height: fit-content;
+  color: white;
+  font-size: 2.7vb;
+  font-family: "Rubik";
+  margin-bottom: 15%;
+}
+.businessButton {
+  width: 27vw;
+  height: 10vh;
+  border-radius: 10px;
+  margin-left: 2%;
+  justify-content: center;
+  font-family: "Rubik";
+  font-size: 3.5vb;
+  background-color:#FEC524 ;
+  color: #042C4B ;
+}
+/*---------Finans-------*/
+.Finans{
+  width: 100%;
+  height: 110vh;
+  display: flex;
+  background-color: #F8F8F8;
+}
+.finans{
+  width: 85%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.FinansA{
+  height: 28vh;
+  margin-top: 7%;
+  border-radius: 10px;
+  border: 1px solid black;
+  background: #FDC13D;
+  border: 1px solid rgba(61, 133, 239, 0.92);
+}
+.FinansA h1{
+  font-size: 1.8vw;
+  display: flex;
+  font-family: "Rubik";
+  color: #042C4B;
+  justify-content: center;
+}
+.FinansA p{
+  font-size: 1.26vw;
+  display: flex;
+  font-family: "Rubik";
+  color: #042C4B;
+  justify-content: center;
+}
+.FinansA a{
+  color: #0E2F4B;
+  text-decoration: none;
+  font-family: "Rubik";
+  margin-left: 5.7vw;
+}
+.FinansB{
+  margin-top: 3%;
+  display: inline-flex;
+}
+.FinansB h1{
+  width: 75vw;
+  display: flex;
+  margin: auto;
+  font-family: "Rubik";
+  color: #042C4B;
+}
+.finansBA{
+  width: 85vw;
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+ }
+.finansBB{
+  width: 25vw;
+  display: flex;
+  flex-flow: column;
+  /*border: 1px solid black;*/
+}
+.finansBB h1{
+  font-family: "Rubik";
+  color: #042C4B;
+  display: flex;
+}
+.finansBB a{
+  font-family: "Rubik";
+  color: #042C4B;
+  display: flex;
+  text-decoration: none;
+}
+/*--------Find ------*/
+.Find{
+  width: 100%;
+  height: 92vh;
+  background-color: #042C4B;
+}
+.find{
+  width: 85%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+}
+.findA{
+  width: 50vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 7%;
+}
+.findA h1{
+  color: white;
+  font-size: 3.2vw;
+  font-family: "Rubik";
+  display: inline-flex;
+}
+.findA h6{
+  color: white;
+  font-size: 1vw;
+  font-family: "Rubik";
+  display: inline-flex;
+  margin: 0;
+}
+.find button{
+  width: 19vw;
+  height: 10vh;
+  border-radius: 10px;
+  margin-left: 1.5%;
+  justify-content: center;
+  font-family: "Rubik";
+  font-size: 3.5vb;
+  background-color:#FEC524 ;
+  color: #042C4B ;
+  margin-top: 6%;
+
+  /*border: 1px solid black;*/
+}
+/*------NEWS----*/
+.NEWS{
+  width: 100%;
+  height: 165vh;
+  background-color: #F8F8F8;
+
+}
+.News{
+  width: 85%;
+  height: 100vh;
+  margin: auto;
+  color:#F8F8F8;
+}
+.NewsA{
+  width: 100%;
+  height: 90vh;
+
+}
+.newsAA{
+  width:100%;
+  height: 20vh;
+  display: flex;
+}
+.newsAB{
+  width:100% ;
+  height: 70vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+.newsAA h1{
+  margin-left: 5%;
+  color: #0E2F4B;
+  font-size: 8vb;
+  font-family: "Rubik";
+ }
+.newsAB button{
+  width:40vw;
+  height:34vh;
+  color:white;
+  border: 1px solid white;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.HistoryTop{
+  width: 38vw;
+  height: 14vh;
+  display: flex;
+}
+.Icon{
+  width: 13vw;
+}
+.Icon img{
+  width: 6vw;
+  height: 10vh;
+  border-radius: 50%;
+}
+.DateText{
+  width:10vw;
+}
+.date{
+  width: 20vw;
+  height: 5vh;
+  font-size: 1.3vw;
+  font-family: "Rubik";
+  color: #042C4B;
+  display: flex;
+  margin-left: 5%;
+}
+.text{
+  width: 24vw;
+  height: 9vh;
+}
+.text h1{
+  font-family: "Rubik";
+  color: #042C4B;
+  font-size: 1.2vw;
+  text-align: left;
+
+}
+.HistoryBottom{
+  width: 40vw;
+}
+.HistoryBottom p{
+  font-family: "Rubik";
+  color: #042C4B;
+  display: flex;
+  font-size: 1vw;
+  margin-left: 2vw;
+}
+
+.villageTop{
+  width: 38vw;
+  height: 14vh;
+  display: flex;
+}
+.villageBottom{
+  width: 40vw;
+}
+.villageBottom p{
+  font-family: "Rubik";
+  color: #042C4B;
+  font-size: 1vw;
+  text-align: left;
+  margin-left: 2vw;
+}
+
+.japanTop{
+  width: 38vw;
+  height: 14vh;
+  display: flex;
+}
+.japanBottom{
+  width: 40vw;
+}
+.japanBottom p{
+  font-family: "Rubik";
+  color: #042C4B;
+  font-size: 1vw;
+  text-align: left;
+  margin-left: 2vw;
+}
+
+.ukrzaliznytsiaTop{
+  width: 38vw;
+  height: 14vh;
+  display: flex;
+}
+.ukrzaliznytsiaBottom{
+  width: 40vw;
+}
+.ukrzaliznytsiaBottom p{
+  font-family: "Rubik";
+  color: #042C4B;
+  font-size: 1vw;
+  text-align: left;
+  margin-left: 2vw;
+}
+
+.NewsB{
+  width: 100%;
+  height: 70vh;
+}
+.newsBA h1{
+  margin-left: 5%;
+  color: #0E2F4B;
+  font-size: 8vb;
+  font-family: "Rubik";
+}
+.newsBB{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.newsBB button{
+  width: 26vw;
+  height: 20vh;
+  margin: auto;
+  margin-bottom:5vh;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+.newsBB button h1{
+  font-family: "Rubik";
+  color: #042C4B;
+  font-size: 1.4vw;
+  margin-left: 2vw;
+  text-align: left;
+}
+/*-----service-----*/
+.Service{
+  width: 100vw;
+  height: 80vh;
+  background: #FEC524;
+}
+.service{
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+
+}
+.serviceText{
+  margin-top: 10vh;
+}
+.serviceText h1{
+  font-family: "Rubik";
+  color: white;
+  font-size: 3.5vw;
+}
+.serviceText h2{
+  font-family: "Rubik";
+  color: #042C4B;
+  font-size: 1.2vw;
+}
+.serviceText b {
+  font-family: "Rubik";
+  color: #021f31;
+  font-size: 1.3vw;
+}
+.Block{
+  display: flex;
+  margin-top: 5vh;
+}
+.block{
+  width: 15vw;
+  height: 10vh;
+  display: flex;
+  margin-right: 1vw;
+  background: white;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+.text h5{
+  margin-top:2vh;
+  margin-bottom: 0;
+}
+.text b{
+  margin: 0;
+  font-size: 1.7vw;
+}
+.text h5{
+  margin-top:2vh;
+  margin-bottom: 0;
+}
+.text b{
+  margin: 0;
+  font-size: 1.7vw;
+}
+.service p{
+  font-family: "Rubik";
+  color: #01132a;
+  font-size: 1.5vw;
+}
+.icon button{
+  background: #FEC524;
+  border: 1px solid #FEC524;
+}
+.icon img{
+  width: 2.8vw;
+}
+/*------footer-----*/
+.Basement{
+  width: 100vw;
+  height: 80vh;
+  background: black;
+}
+.basement{
+  width: 85%;
+  height: 75vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+
+}
+.Information{
+  width: 22vw;
+  margin-top: 7vh;
+  margin-right: 2vw;
+  margin-bottom: auto;
+}
+.Information h1{
+  font-family: "Rubik";
+  color: white;
+  font-size: 1.6vw;
+}
+.information{
+  display:flex;
+  flex-direction: column;
+  font-size: 1.1vw;
+}
+.information a{
+  font-family: "Rubik";
+  color: white;
+  font-size: 1vw;
+  text-decoration: none;
+  margin-bottom: 0.5vw;
+}
+.information hr{
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  color:white;
+}
+
+.Services{
+  width: 22vw;
+  height: 61vh;
+}
+.Services h1{
+  font-family: "Rubik";
+  color: white;
+  font-size: 1.6vw;
+}
+.services{
+  display:flex;
+  flex-direction: column;
+  font-size: 1.4vw;
+}
+.services a{
+  font-family: "Rubik";
+  color: white;
+  font-size: 1.1vw;
+  margin-bottom: 0.5vw;
+  text-decoration: none;
+}
+
+.Finance{
+  width: 22vw;
+  height: 61vh;
+}
+.Finance h1{
+  font-family: "Rubik";
+  color: white;
+  font-size: 1.6vw;
+}
+.finance{
+  display:flex;
+  flex-direction: column;
+}
+.finance a{
+  font-family: "Rubik";
+  color: white;
+  font-size: 1.1vw;
+  text-decoration: none;
+  margin-bottom: 0.5vw;
+}
+
+.Other{
+  width: 22vw;
+  height: 61vh;
+}
+.Other h1{
+  font-family: "Rubik";
+  color: white;
+  font-size: 1.6vw;
+}
+.other{
+  display:flex;
+  flex-direction: column;
+}
+.other a{
+  font-family: "Rubik";
+  color:white;
+  font-size: 1.1vw;
+  margin-bottom: 0.5vw;
+  text-decoration: none;
+}
+
+
